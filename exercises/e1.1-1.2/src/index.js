@@ -11,7 +11,6 @@ import ReactDOM from 'react-dom';
 // const exercises3 = 14;
 
 const Header = (props) => {
-  console.log(props)
   return (
     <h1>{props.course}</h1>
   );
